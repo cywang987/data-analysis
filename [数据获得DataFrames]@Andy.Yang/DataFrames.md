@@ -42,7 +42,7 @@ julia> df = DataFrame(A = 1:4, B = ["M", "F", "F", "M"])
 │ 4   │ 4     │ M      │
 
 # 构造空类型
-julia》 df = DataFrame()
+julia> df = DataFrame()
 
 # 从具名元组(NamedTuples)构造
 julia> v = [(a=1,b=2), (a=3,b=4)]
